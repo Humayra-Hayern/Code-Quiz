@@ -1,1 +1,180 @@
-
+/* add */
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: snow;
+  }
+  
+  header {
+    padding: 15px;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: green;
+  }
+  
+  header h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* add */
+  ol {
+    margin: auto;
+    padding: 15px;
+  }
+  
+  #answers ol li {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* add */
+  #highscoresContainer {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: orange;
+    max-width: 60vw;
+    max-height: 60vh;
+  }
+  
+  #highscoresContainer ol li {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30vw;
+    max-height: 30vh;
+  }
+  
+  /* add */
+  #highscores {
+    color: black;
+    background-color: yellow;
+    position: fixed;
+    top: 20px;
+    left: 32px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 3px;
+    padding: 3px;
+  }
+  
+  #highscores:hover {
+    color: snow;
+    border-color: snow;
+    cursor: pointer;
+  }
+  
+  /* add */
+  button {
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: inherit;
+    margin: 5px;
+  }
+  
+  button:hover {
+    color: snow;
+    border-color: snow;
+    cursor: pointer;
+  }
+  
+  #timer {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+  }
+  
+  /* add */
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: contents;
+  }
+  
+  #container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: ridge;
+    padding: 20px;
+    background-color: orange;
+    max-width: 60vw;
+  }
+  
+  #answers li {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 3px;
+    color: black;
+    background-color: yellow;
+  }
+  
+  #answers li:hover {
+    color: snow;
+    border-color: snow;
+    cursor: pointer;
+  }
+  
+  #refreshAndClearBtns {
+    margin: 15px;
+    font-family: inherit;
+  }
+  
+  /* add */
+  hr {
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+  }
+  
+  /* add */
+  #correct {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+  }
+  
+  #incorrect {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+  }
+  
+  #scoresform {
+    max-width: 5%;
+  }
