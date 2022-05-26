@@ -27,3 +27,13 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
+## Appearance
+The image below displays the website's appearance and functionality.
+
+![CodeQuiz2](https://user-images.githubusercontent.com/95111780/170571827-34d19bcb-d542-4c32-b893-d741b88f3fd2.PNG)
+
+## Links
+* https://humayra-hayern.github.io/Code-Quiz/
+
+## Credits
+University of Birmingham Bootcamp
