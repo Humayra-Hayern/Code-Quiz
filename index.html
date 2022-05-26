@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/style.css" />
+  </head>
 
+  <body>
+    <header>
+      <span id="highscores">Highscores</span
+      ><span id="timer" class="hide"
+        >Time Remaining: <span id="timeRemaining"></span> Seconds</span
+      >
+      <h1>Code Quiz</h1>
+    </header>
+
+    <!-- Questions and answers are stored here in the main container. -->
+    <div id="container" class="yellowBorder">
+      <div id="question">
+        This is a short quiz to put your JavaScript knowledge to the test. Try
+        to answer the following questions as quickly as you can to achieve the
+        highest score.<br />
+        But if you get a question wrong, time will be taken off you and will
+        thus reduce your overall score.<br /><br />Best of luck!
+      </div>
+      <div id="answers"></div>
+      <hr />
+      <br />
+      <br />
+      <button id="startQuizBtn">Click to Begin</button>
+      <form id="scoresForm" class="hide">
+        <label>Enter Your Initials Here:</label>
+        <input type="text" id="initials" />
+        <button id="submitScoreBtn">Submit Score</button>
+      </form>
+      <p id="correct" class="hide">Well Done! That was CORRECT!</p>
+      <p id="incorrect" class="hide">Oh No! That was INCORRECT!</p>
+    </div>
+
+    <!-- Highscores are displayed in this container. -->
+    <div id="highscoresContainer" class="hide"></div>
+    <div id="refreshAndClearBtns">
+      <button
+        id="refreshBtn"
+        class="hide"
+        onClick="window.location.href=window.location.href"
+      >
+        Back to Start
+      </button>
+      <button id="clearBtn" class="hide">Clear Highscores</button>
+    </div>
+
+    <script src="Assets/script.js"></script>
+  </body>
+</html>
