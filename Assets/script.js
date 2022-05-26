@@ -132,7 +132,7 @@ function updateAnswersUi() {
 // ADD
 function endGame() {
   questionEL.textContent =
-    "You finished the quiz! Your final score is " + timeRemaining;
+    "You finished the quiz! Your final score is" + timeRemaining;
   answersEl.classList.add("hide");
   timerEl.classList.add("hide");
   scoresFormEl.classList.add("show");
