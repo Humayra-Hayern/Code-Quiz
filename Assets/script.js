@@ -22,7 +22,7 @@ var questions = [
   },
   {
     question: "The condition in an if/else statement is enclosed within ____.",
-    answers: ["Quotes", "sSquare Brackets", "Parentheses", "Curly Brackets"],
+    answers: ["Quotes", "Square Brackets", "Parentheses", "Curly Brackets"],
     correctAnswer: "Parentheses",
   },
   {
@@ -38,7 +38,7 @@ var questions = [
   {
     question:
       "String values must be enclosed within ____ when being assigned to variables.",
-    answers: ["Curly Brackets", "Quotes", "Parenthesis", "Commas"],
+    answers: ["Curly Brackets", "Quotes", "Parentheses", "Commas"],
     correctAnswer: "Quotes",
   },
   {
