@@ -1,4 +1,4 @@
-# 04 JavaScript: Code-Quiz
+# 04) JavaScript: Code-Quiz
 For this project, I had to build a responsive webpage of a timed quiz with multiple-choice questions using HTML, CSS and JavaScript code. I also worked with a Web API for the first time.
 
 ## User Story 
